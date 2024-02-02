@@ -1,0 +1,14 @@
+@import "colors.scss";
+@import 'typography.scss';
+@import 'layout.scss';
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+}

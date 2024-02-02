@@ -1,18 +1,23 @@
 import logo from '../../svg/logo.svg';
+import '../../css/style.css'
 const Header = () =>{
     return(
         <>
-          <div className="logo">
-            <img src={logo} alt="logo"/>
-          </div>
-          <div className="search">
-            <input type='text' name='seach'placeholder='Pesquise por um arquivo'/>
-          </div>
-          <ul className="menu">
-            <li className='nav-link'>Categoris</li>
-            <li className='nav-link'>Abour</li>
-            <li className='nav-link'>Contact</li>
-            </ul>  
+        <header className='space-between '>
+        <div className="logo ">
+                <img src={logo} alt="logo"/>
+            </div>
+
+            <div className="search">
+                <input className='inputBtn' type='text' name='seach'placeholder='Pesquise por um arquivo'/>
+            </div>
+
+            <ul className="menu flex">
+                <li className='nav-link'><a href='#'>Categoris</a></li>
+                <li className='nav-link'><a href='#'>Abour</a></li>
+                <li className='nav-link'><a href='#'>Contact</a></li>
+             </ul> 
+        </header>
         </>
     )
 }
