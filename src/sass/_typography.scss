@@ -2,11 +2,30 @@
 
 
 h1{
-    font-size: 32px;
+    font-size: 48px;
+    font-weight: 300;
 }
 h2{
-    font-size: 24px;
+    font-size: 40px;
+    font-weight: 300;
 }
 h3{
+    font-size: 32px;
+    font-weight: 300;
+    color: white;
+}
+h4{
+    font-size: 24px;
+    font-weight: 300;
+}
+h5{
     font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: $secondary-color;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    color: $gray-3;
 }

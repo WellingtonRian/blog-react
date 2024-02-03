@@ -1,5 +1,5 @@
 import Header from "./componentes/Header";
-
+import Article from "./componentes/Article";
 function App() {
   
 
@@ -7,6 +7,7 @@ function App() {
     <>
     <div className="container">
       <Header/>
+      <Article/>
     </div>
     </>
   )

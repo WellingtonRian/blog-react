@@ -1,10 +1,11 @@
 @import "colors.scss";
 @import 'typography.scss';
 @import 'layout.scss';
+@import 'spacing.scss';
 
 *{
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
