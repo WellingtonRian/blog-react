@@ -101,6 +101,10 @@ a:hover {
   margin: 0px;
 }
 
+button {
+  padding: 8px 10px;
+}
+
 .mt-1 {
   margin-top: 8px;
 }

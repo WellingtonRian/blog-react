@@ -1,5 +1,6 @@
 import Header from "./componentes/Header";
-import Article from "./componentes/Article";
+//import Article from "./componentes/Article";
+import Main from "./pages/Main";
 function App() {
   
 
@@ -7,7 +8,7 @@ function App() {
     <>
     <div className="container">
       <Header/>
-      <Article/>
+      <Main/>
     </div>
     </>
   )

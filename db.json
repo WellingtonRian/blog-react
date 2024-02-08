@@ -20,15 +20,6 @@
     },
     {
       "id": "3",
-      "category": "Tecnologia",
-      "title": "O guia definitivo sobre o blog",
-      "resume": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, fuga. Animi, tenetur. Quia soluta, distinctio recusandae non expedita qui blanditiis modi officiis incidunt repudiandae corrupti ",
-      "author": "Fulano de tal",
-      "date": "17 jan, 2024"
-    },
-    {
-      "id": "4",
       "category": "Viagems",
       "title": "Os melhores destinos de 2024",
       "resume": "Lorem ipsum in dolor",
